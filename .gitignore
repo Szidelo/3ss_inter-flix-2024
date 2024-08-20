@@ -1,0 +1,10 @@
+.env/
+build/
+node_modules/
+.idea/
+
+dist
+releases
+.tmp
+build
+/.metadata/
