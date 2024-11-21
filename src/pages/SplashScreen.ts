@@ -18,7 +18,7 @@ export class SplashScreen extends Lightning.Component {
         texture: lng.Tools.getSvgTexture(
           Utils.asset("images/background.svg"),
           SCREEN_SIZES.WIDTH,
-          SCREEN_SIZES.HEIGHT,
+          SCREEN_SIZES.HEIGHT
         ),
         Thunder: {
           x: 900,
@@ -27,7 +27,11 @@ export class SplashScreen extends Lightning.Component {
           mountY: 0.5,
           zIndex: 1,
           alpha: 0,
-          texture: lng.Tools.getSvgTexture(Utils.asset("images/logoThunder.svg"), 594, 240.75),
+          texture: lng.Tools.getSvgTexture(
+            Utils.asset("images/logoThunder.svg"),
+            594,
+            240.75
+          ),
         },
         Name: {
           x: 900,
@@ -36,7 +40,11 @@ export class SplashScreen extends Lightning.Component {
           mountY: 0.5,
           zIndex: 1,
           alpha: 0,
-          texture: lng.Tools.getSvgTexture(Utils.asset("images/logoName.svg"), 594, 240.75),
+          texture: lng.Tools.getSvgTexture(
+            Utils.asset("images/logoName.svg"),
+            594,
+            240.75
+          ),
         },
       },
     };
